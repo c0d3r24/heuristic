@@ -12,12 +12,7 @@ import Report from './components/Report'
 class App extends Component {
   componentWillMount(){
     const config = {
-      apiKey: "AIzaSyBwItRyRAUsmRgJuy4UYv4Nb3CK8u_bAYk",
-      authDomain: "heuristiceval-6241f.firebaseapp.com",
-      databaseURL: "https://heuristiceval-6241f.firebaseio.com",
-      projectId: "heuristiceval-6241f",
-      storageBucket: "heuristiceval-6241f.appspot.com",
-      messagingSenderId: "187388356891"
+      // paste your firebase keys here.
     };
     firebase.initializeApp(config);
   }
